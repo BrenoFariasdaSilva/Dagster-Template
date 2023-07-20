@@ -1,4 +1,10 @@
-# Dagster - Template Model.
+<div align="center">
+  
+# [Dagster - Template Model.](https://github.com/BrenoFariasdaSilva/Dagster-Template) <img src="https://github.com/BrenoFariasdaSilva/Dagster-Template/blob/main/assets/Dagster.svg"  width="11%" height="11%">
+
+</div>
+
+<div align="center">
 ---
 #### This repository is a translation of a Jupyter notebook model_name model to Dagster, in which uses Dagster 1.3.11 and Python 3.7.17.
 
