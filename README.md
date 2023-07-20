@@ -28,6 +28,12 @@ Dagster is a data orchestrator for machine learning, analytics, and ETL. It lets
   <img src="https://wakatime.com/badge/github/BrenoFariasdaSilva/Dagster-Template.svg" alt="wakatime" />
 </p>
 
+<div align="center">
+  
+![RepoBeats Statistics](https://repobeats.axiom.co/api/embed/a681afdffa4460fc93f814d6a0cd3349fb79634f.svg "Repobeats analytics image")
+
+</div>
+
 ## Project Files Structure:
 There are two levels of folders in this project. The first level is the project folder (root), and the second level is the Dagster folder (translated model). The project folder contains the files that are related setting up the python to a specific version (3.7.17) and dagster depencies. The Dagster folder contains the files that are related to Dagster project. Each folder level have a README.md file and a Makefile file.
 
