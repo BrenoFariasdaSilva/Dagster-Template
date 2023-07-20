@@ -34,6 +34,18 @@ Dagster is a data orchestrator for machine learning, analytics, and ETL. It lets
 
 </div>
 
+## Table of Contents:
+- [Dagster - Template Model. ](#dagster---template-model-)
+  - [Table of Contents:](#table-of-contents)
+  - [Project Files Structure:](#project-files-structure)
+  - [Install Dependencies:](#install-dependencies)
+    - [Pre-requisites:](#pre-requisites)
+    - [Backend:](#backend)
+    - [Model Dependencies:](#model-dependencies)
+  - [How to Run:](#how-to-run)
+
+
+
 ## Project Files Structure:
 There are two levels of folders in this project. The first level is the project folder (root), and the second level is the Dagster folder (translated model). The project folder contains the files that are related setting up the python to a specific version (3.7.17) and dagster depencies. The Dagster folder contains the files that are related to Dagster project. Each folder level have a README.md file and a Makefile file.
 
