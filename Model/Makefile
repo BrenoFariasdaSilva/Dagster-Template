@@ -18,7 +18,7 @@ dependencies:
 # Install the python dependencies:
 python_dependencies:
 	echo "Installing the python dependencies...";
-	pip install pandas matplotlib seaborn scikit-learn
+	pip install pandas matplotlib numpy seaborn scikit-learn
 	echo "Python dependencies installed!";
 
 # Install the dagster dependencies:
