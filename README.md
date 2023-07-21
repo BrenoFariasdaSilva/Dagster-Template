@@ -24,9 +24,14 @@ Dagster is a data orchestrator for machine learning, analytics, and ETL. It lets
   
 </div>
 
-<p align="center">
-  <img src="https://wakatime.com/badge/github/BrenoFariasdaSilva/Dagster-Template.svg" alt="wakatime" />
-</p>
+<div align="center">
+
+![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Dagster-Template)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Dagster-Template)
+![GitHub](https://img.shields.io/github/license/BrenoFariasdaSilva/Dagster-Template)
+![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Dagster-Template.svg)
+
+</div>
 
 <div align="center">
   
