@@ -64,13 +64,13 @@ Now you need to run the `backend.sh` file (also located in the root directory of
 chmod +x ./backend.sh # Gives execution permission to the file
 ./backend.sh # Installs project dependencies
 ```
-Great, the dagster dependencies are installed. Now we need to install the project/model dependencies, located in `Dagster-Educacao/` folder.
+Great, the dagster dependencies are installed. Now we need to install the project/model dependencies, located in `Model/` folder.
 
 ### Model Dependencies:
-Now that you have Python 3.7.17 installed, the Dagster dependencies and the pyenv virtual environment created, open a new terminal in the `Dagster-Educacao/` folder and execute the following makefile rule:
+Now that you have Python 3.7.17 installed, the Dagster dependencies and the pyenv virtual environment created, open a new terminal in the `Model/` folder and execute the following makefile rule:
 
 ```shell
-cd Dagster-Educacao # Enters the project folder
+cd Model # Enters the project folder
 make dependecies # Installs the project dependencies, such as:
 # Install Python dependencies of the model -> pandas, matplotlib, seaborn and scikit-learn.
 # Install the database module dependencies -> psycopg2-binary and sqlalchemy, etc.
