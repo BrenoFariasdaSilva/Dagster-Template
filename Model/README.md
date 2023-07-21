@@ -1,9 +1,50 @@
-# Dagster - Template Model.
----
-#### This repository is a translation of a Jupyter notebook model_name model to Dagster, in which uses Dagster 1.3.11 and Python 3.7.17.
+<div align="center">
+  
+# [Dagster - Template Model.](https://github.com/BrenoFariasdaSilva/Dagster-Template) <img src="https://github.com/BrenoFariasdaSilva/Dagster-Template/blob/main/assets/Dagster.svg"  width="11%" height="11%">
 
-#### Dagster is a data orchestrator for machine learning, analytics, and ETL. It lets you define pipelines in terms of the data flow between reusable, logical components, then test locally and run anywhere. With a unified view of pipelines and the assets they produce, Dagster can schedule and orchestrate Pandas, Spark, SQL, or anything else that Python can invoke. It abstracts away the infrastructure details and job execution, so that you can focus on what matters: building data applications. For more information, please visit the [Dagster website](https://dagster.io/).
+</div>
+
+<div align="center">
+  
 ---
+  
+This repository is a translation of a Jupyter notebook model_name model to Dagster, in which uses Dagster 1.3.11 and Python 3.7.17.
+
+---
+  
+</div>
+
+<div align="center">
+  
+---
+  
+Dagster is a data orchestrator for machine learning, analytics, and ETL. It lets you define pipelines in terms of the data flow between reusable, logical components, then test locally and run anywhere. With a unified view of pipelines and the assets they produce, Dagster can schedule and orchestrate Pandas, Spark, SQL, or anything else that Python can invoke. It abstracts away the infrastructure details and job execution, so that you can focus on what matters: building data applications. For more information, please visit the [Dagster website](https://dagster.io/).
+
+---
+  
+</div>
+
+<p align="center">
+  <img src="https://wakatime.com/badge/github/BrenoFariasdaSilva/Dagster-Template.svg" alt="wakatime" />
+</p>
+
+<div align="center">
+  
+![RepoBeats Statistics](https://repobeats.axiom.co/api/embed/a681afdffa4460fc93f814d6a0cd3349fb79634f.svg "Repobeats analytics image")
+
+</div>
+
+## Table of Contents:
+- [Dagster - Template Model. ](#dagster---template-model-)
+  - [Table of Contents:](#table-of-contents)
+  - [Project Files Structure:](#project-files-structure)
+  - [Install Dependencies:](#install-dependencies)
+    - [Pre-requisites:](#pre-requisites)
+    - [Backend:](#backend)
+    - [Model Dependencies:](#model-dependencies)
+  - [How to Run:](#how-to-run)
+
+
 
 ## Project Files Structure:
 There are two levels of folders in this project. The first level is the project folder (root), and the second level is the Dagster folder (translated model). The project folder contains the files that are related setting up the python to a specific version (3.7.17) and dagster depencies. The Dagster folder contains the files that are related to Dagster project. Each folder level have a README.md file and a Makefile file.
@@ -23,13 +64,13 @@ Now you need to run the `backend.sh` file (also located in the root directory of
 chmod +x ./backend.sh # Gives execution permission to the file
 ./backend.sh # Installs project dependencies
 ```
-Great, the dagster dependencies are installed. Now we need to install the project/model dependencies, located in `Dagster-Educacao/` folder.
+Great, the dagster dependencies are installed. Now we need to install the project/model dependencies, located in `Model/` folder.
 
 ### Model Dependencies:
-Now that you have Python 3.7.17 installed, the Dagster dependencies and the pyenv virtual environment created, open a new terminal in the `Dagster-Educacao/` folder and execute the following makefile rule:
+Now that you have Python 3.7.17 installed, the Dagster dependencies and the pyenv virtual environment created, open a new terminal in the `Model/` folder and execute the following makefile rule:
 
 ```shell
-cd Dagster-Educacao # Enters the project folder
+cd Model # Enters the project folder
 make dependecies # Installs the project dependencies, such as:
 # Install Python dependencies of the model -> pandas, matplotlib, seaborn and scikit-learn.
 # Install the database module dependencies -> psycopg2-binary and sqlalchemy, etc.
