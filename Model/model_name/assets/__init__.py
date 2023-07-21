@@ -1,6 +1,8 @@
+from dagster import asset, op, job, Out, AssetMaterialization # For dagster
 import os # For creating folders
 import pandas as pd # For data manipulation
 import matplotlib.pyplot as plt # For plotting
+import numpy as np # For data manipulation
 import seaborn as sns # For plotting
 from sklearn.linear_model import LinearRegression # For regression
 from dagster import asset, op, job, Out, AssetMaterialization # For dagster
