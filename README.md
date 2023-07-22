@@ -1,6 +1,6 @@
 <div align="center">
   
-# [Dagster - Template Model.](https://github.com/BrenoFariasdaSilva/Dagster-Template) <img src="https://github.com/BrenoFariasdaSilva/Dagster-Template/blob/main/assets/Dagster.svg"  width="11%" height="11%">
+# [Dagster - Template Model.](https://github.com/BrenoFariasdaSilva/Dagster-Template) <img src="https://github.com/BrenoFariasdaSilva/Dagster-Template/blob/main/.assets/Dagster.svg"  width="11%" height="11%">
 
 </div>
 
