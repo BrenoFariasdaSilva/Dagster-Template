@@ -48,6 +48,7 @@ Dagster is a data orchestrator for machine learning, analytics, and ETL. It lets
     - [Backend:](#backend)
     - [Model Dependencies:](#model-dependencies)
   - [How to Run:](#how-to-run)
+  - [License](#license)
 
 
 
@@ -89,3 +90,6 @@ At this point, you can simply run the following command to run the model:
 make dagster # Run the dagster model
 ```
 This will run the dagster dev command, which will be executed on port 3000 and receive requests from any host. You can access the dagster UI by accessing the following link: http://localhost:3000.
+
+## License
+This project is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE), which means you are free to use, modify, and distribute the code. See the [LICENSE](LICENSE) file for more details.
