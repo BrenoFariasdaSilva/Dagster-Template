@@ -61,14 +61,14 @@ First you need to run the `prerequisites.sh` file to install the project depende
 
 ```shell
 chmod +x ./prerequisites.sh # Gives execution permission to the file
-./prerequisites.sh # Installs project dependencies
+./prerequisites.sh # Installs project pre requisites, such as pyenv, homebrew and node.
 ```
 
 ### Backend:
 Now you need to run the `backend.sh` file (also located in the root directory of the project), which will create the python virtual environment and install the dagster packages, install `yarn`, the python modules and `dagit` (dagster UI).
 ```shell
 chmod +x ./backend.sh # Gives execution permission to the file
-./backend.sh # Installs project dependencies
+./backend.sh # Installs project dependencies, such as python 3.7.17, dagster packages, yarn, python modules and dagit.
 ```
 Great, the dagster dependencies are installed. Now we need to install the project/model dependencies, located in `Model/` folder.
 
@@ -77,7 +77,7 @@ Now that you have Python 3.7.17 installed, the Dagster dependencies and the pyen
 
 ```shell
 cd Model # Enters the project folder
-make dependecies # Installs the project dependencies, such as:
+make dependecies # Install the project dependencies, such as:
 # Install Python dependencies of the model -> pandas, matplotlib, seaborn and scikit-learn.
 # Install the database module dependencies -> psycopg2-binary and sqlalchemy, etc.
 # Install Docker and Docker-Compose.
